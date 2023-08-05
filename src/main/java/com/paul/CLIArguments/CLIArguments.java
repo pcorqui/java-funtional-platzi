@@ -1,4 +1,4 @@
-package com.paul;
+package com.paul.CLIArguments;
 
 public class CLIArguments {
         private boolean isHelp;
