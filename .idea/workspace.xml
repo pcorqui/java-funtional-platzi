@@ -4,20 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2045e0b8-fc80-4ec8-907b-bcb8c552f8d0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/paul/CLIArguments/CLIArguments.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/paul/CLIArguments/CLIArgumentsUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/paul/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/paul/functional/FuncionesAsParameter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/paul/functional/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/paul/functional/MathFunctions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/paul/functional/PureFunctions.java" afterDir="false" />
+    <list default="true" id="2045e0b8-fc80-4ec8-907b-bcb8c552f8d0" name="Changes" comment="Initial commit">
+      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/paul/StringFuntions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/paul/consumer/DemoConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/paul/consumer/Persona.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/paul/CLIArguments/CLIArguments.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/paul/CLIArguments/CLIArguments.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/paul/CLIArguments/CLIArgumentsUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/paul/CLIArguments/CLIArgumentsUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/paul/functional/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/paul/functional/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/paul/functional/MathFunctions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/paul/functional/MathFunctions.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,12 +45,25 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MathFunctions">
+  <component name="RunManager" selected="Application.DemoConsumer">
+    <configuration name="DemoConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.paul.consumer.DemoConsumer" />
+      <module name="java-funtional-platzi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.paul.consumer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FuncionesAsParameter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.paul.functional.FuncionesAsParameter" />
       <module name="java-funtional-platzi" />
@@ -80,8 +90,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.paul.StringFuntions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.paul.StringFuntions" />
+      <module name="java-funtional-platzi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.paul.consumer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DemoConsumer" />
+        <item itemvalue="Application.com.paul.StringFuntions" />
         <item itemvalue="Application.MathFunctions" />
         <item itemvalue="Application.FuncionesAsParameter" />
       </list>
@@ -96,6 +121,14 @@
       <option name="presentableId" value="Default" />
       <updated>1676155309857</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <created>1691245270998</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1691245270998</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -108,5 +141,24 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/paul/consumer/DemoConsumer.java</url>
+          <line>6</line>
+          <properties class="com.paul.consumer.DemoConsumer" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
