@@ -2,6 +2,7 @@ package com.paul.streams;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class PruebaStream {
@@ -56,6 +57,21 @@ public class PruebaStream {
         people.stream().map(persona -> persona.getAge()).forEach(x->System.out.println(x));
 
 
+        //usando collect method
+        /*
+        The filter and map() methods both return a stream. We need to change the stream back into a List to pass it around and use it in our code properly. The collect() method lets us do that.
+        When we use the collect() method, we pass into it a Collector type, which we can generate using static methods in the Collectors class
+         */
+
+        List<Persona> oldPeople = people.stream()
+                .filter(p->p.getName().startsWith("Z")).collect(Collectors.toList());
+
+        oldPeople.stream()
+                .forEach((persona -> {
+                    System.out.print(persona.getName());
+                    System.out.print(" - ");
+                    System.out.println(persona.getAge());
+                }));
 
     }
 }

@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2045e0b8-fc80-4ec8-907b-bcb8c552f8d0" name="Changes" comment="Add practice MethodReferenced&#10;using sintaxis for call methods and use methods as a funtions">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/paul/streams/Persona.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/paul/streams/PruebaStream.java" afterDir="false" />
+    <list default="true" id="2045e0b8-fc80-4ec8-907b-bcb8c552f8d0" name="Changes" comment="Add Prueba de funcionamiento de stream&#10; se prueba como funciona filter, map, forEach">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/paul/streams/PruebaStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/paul/streams/PruebaStream.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691350439543</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add Prueba de funcionamiento de stream&#10; se prueba como funciona filter, map, forEach">
+      <created>1691363955700</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1691363955700</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -179,7 +185,8 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="resolve conflict" />
     <MESSAGE value="Add practice MethodReferenced&#10;using sintaxis for call methods and use methods as a funtions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add practice MethodReferenced&#10;using sintaxis for call methods and use methods as a funtions" />
+    <MESSAGE value="Add Prueba de funcionamiento de stream&#10; se prueba como funciona filter, map, forEach" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Prueba de funcionamiento de stream&#10; se prueba como funciona filter, map, forEach" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
